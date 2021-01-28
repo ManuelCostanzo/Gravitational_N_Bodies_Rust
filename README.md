@@ -1,1 +1,1 @@
-# Gravitational_N_Bodies_Rust
+# Gravitational N bodies simulation on Rust.
