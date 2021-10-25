@@ -9,7 +9,12 @@ RUSTFLAGS='-C **target-cpu=native** -Ctarget-feature=+avx'  cargo +nightly build
 ```
 target-cpu: it depends on the architecture.
   
-opt: can be [opt1, opt2, opt3, opt4, opt5, opt6]
+opt1: naive version
+opt2: multi-threading version
+opt3: fold version
+opt4-3: math optimization version
+opt5: Jemalloc version
+opt6: block processing version
 ```
 
 ## References
