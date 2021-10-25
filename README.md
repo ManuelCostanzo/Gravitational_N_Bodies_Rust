@@ -4,10 +4,7 @@ This repo contains an optimized Rust implementation of the N-Body simulation for
 
 ## Usage
 
-```
 RUSTFLAGS='-C **target-cpu=native** -Ctarget-feature=+avx'  cargo +nightly build --release --bin **opt**
-
-```
 
 ```
 target-cpu: it depends on the architecture.
